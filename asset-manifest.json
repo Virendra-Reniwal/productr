@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/productr/static/css/main.77ae54fb.css",
-    "main.js": "/productr/static/js/main.04cdec21.js",
+    "main.js": "/productr/static/js/main.74138996.js",
     "static/media/left-bg.png": "/productr/static/media/left-bg.d51eca01a5f364414e0c.png",
     "static/media/runner.jpg": "/productr/static/media/runner.9d6989994536c5cff71c.jpg",
     "static/media/close.svg": "/productr/static/media/close.8265f088f188bceed9ff7ed9b6ce0433.svg",
@@ -10,10 +10,10 @@
     "static/media/Home.svg": "/productr/static/media/Home.0011b7f51ce0fb4a1c89f5a857b88f1b.svg",
     "static/media/Shopping.svg": "/productr/static/media/Shopping.ea7ad39a7285ce5dd2b6608e9eb8ac1d.svg",
     "main.77ae54fb.css.map": "/productr/static/css/main.77ae54fb.css.map",
-    "main.04cdec21.js.map": "/productr/static/js/main.04cdec21.js.map"
+    "main.74138996.js.map": "/productr/static/js/main.74138996.js.map"
   },
   "entrypoints": [
     "static/css/main.77ae54fb.css",
-    "static/js/main.04cdec21.js"
+    "static/js/main.74138996.js"
   ]
 }
