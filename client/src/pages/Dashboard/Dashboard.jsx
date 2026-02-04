@@ -28,7 +28,7 @@ export default function Dashboard() {
       setLoading(true);
       const token = localStorage.getItem("token");
 
-      const res = await fetch("http://localhost:5000/api/products", {
+      const res = await fetch("https://productr-backendd.onrender.com/api/products", {
         headers: { Authorization: `Bearer ${token}` },
       });
 

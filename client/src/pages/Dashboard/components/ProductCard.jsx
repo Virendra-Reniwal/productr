@@ -48,7 +48,7 @@ export default function ProductCard({ product, onRefresh, onEdit }) {
   // Delete Product
   const handleDelete = async () => {
     try {
-      const res = await fetch(`http://localhost:5000/api/products/${product._id}`, {
+      const res = await fetch(`https://productr-backendd.onrender.com/api/products/${product._id}`, {
         method: "DELETE",
         headers: { Authorization: `Bearer ${token}` },
       });
@@ -66,7 +66,7 @@ export default function ProductCard({ product, onRefresh, onEdit }) {
   // Publish/Unpublish Product
   const handlePublish = async () => {
     try {
-      const res = await fetch(`http://localhost:5000/api/products/publish/${product._id}`, {
+      const res = await fetch(`https://productr-backendd.onrender.com/api/products/publish/${product._id}`, {
         method: "PUT",
         headers: { Authorization: `Bearer ${token}` },
       });
@@ -81,7 +81,7 @@ export default function ProductCard({ product, onRefresh, onEdit }) {
 
   // Image URL (fallback to placeholder)
   const imageUrl = product.images?.[0]
-    ? `http://localhost:5000${product.images[0]}`
+    ? `https://productr-backendd.onrender.com${product.images[0]}`
     : "/placeholder.png";
 
   return (

@@ -58,7 +58,7 @@ export default function Login() {
 
       // 🔥 REAL API CALL
       const response = await fetch(
-        "http://localhost:5000/api/auth/send-otp",
+        "https://productr-backendd.onrender.com/api/auth/send-otp",
         {
           method: "POST",
           headers: {

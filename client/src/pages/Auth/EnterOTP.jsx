@@ -73,7 +73,7 @@ export default function EnterOTP() {
       setLoading(true);
       setError("");
 
-      const res = await fetch("http://localhost:5000/api/auth/verify-otp", {
+      const res = await fetch("https://productr-backendd.onrender.com/api/auth/verify-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: input, otp: enteredOtp }),
@@ -105,7 +105,7 @@ export default function EnterOTP() {
       setResending(true);
       setError("");
 
-      await fetch("http://localhost:5000/api/auth/send-otp", {
+      await fetch("https://productr-backendd.onrender.com/api/auth/send-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: input }),

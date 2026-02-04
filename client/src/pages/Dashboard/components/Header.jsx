@@ -30,7 +30,7 @@ export default function Header({ activePage, onSearch }) {
   // 🔓 LOGOUT
   const handleLogout = async () => {
     try {
-      await fetch("http://localhost:5000/auth/logout", {
+      await fetch("https://productr-backendd.onrender.com/api/auth/logout", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,

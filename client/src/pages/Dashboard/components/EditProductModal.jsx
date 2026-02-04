@@ -51,7 +51,7 @@ export default function EditProductModal({ product, onClose, setToast }) {
 
       const token = localStorage.getItem("token");
 
-      const res = await fetch(`http://localhost:5000/api/products/${product._id}`, {
+      const res = await fetch(`https://productr-backendd.onrender.com/api/products/${product._id}`, {
         method: "PUT",
         headers: { Authorization: `Bearer ${token}` },
         body: formData,

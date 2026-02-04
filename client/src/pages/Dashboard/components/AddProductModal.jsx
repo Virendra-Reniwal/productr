@@ -30,7 +30,7 @@ export default function AddProductModal({ onClose, setToast, product }) {
         images: [],
       });
 
-      setPreviews(product.images?.map((img) => `http://localhost:5000${img}`) || []);
+      setPreviews(product.images?.map((img) => `https://productr-backendd.onrender.com/${img}`) || []);
     }
   }, [product]);
 
@@ -64,8 +64,8 @@ export default function AddProductModal({ onClose, setToast, product }) {
 
       const token = localStorage.getItem("token");
       const url = product
-        ? `http://localhost:5000/api/products/${product._id}`
-        : "http://localhost:5000/api/products";
+        ? `https://productr-backendd.onrender.com/api/products/${product._id}`
+        : "https://productr-backendd.onrender.com/api/products";
       const method = product ? "PUT" : "POST";
 
       const res = await fetch(url, {
