@@ -1,0 +1,13 @@
+# Node/Express backend
+server/node_modules/
+server/.env
+
+# React frontend
+client/node_modules/
+client/.env
+
+# Build folders
+client/build/
+
+# Optional: OS files
+.DS_Store
