@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/client/static/css/main.77ae54fb.css",
-    "main.js": "/client/static/js/main.b5247782.js",
-    "static/media/left-bg.png": "/client/static/media/left-bg.d51eca01a5f364414e0c.png",
-    "static/media/runner.jpg": "/client/static/media/runner.9d6989994536c5cff71c.jpg",
-    "static/media/close.svg": "/client/static/media/close.8265f088f188bceed9ff7ed9b6ce0433.svg",
-    "static/media/Search.svg": "/client/static/media/Search.7c2c4c5e9e9813796b0998ba7261e89e.svg",
-    "index.html": "/client/index.html",
-    "static/media/Home.svg": "/client/static/media/Home.0011b7f51ce0fb4a1c89f5a857b88f1b.svg",
-    "static/media/Shopping.svg": "/client/static/media/Shopping.ea7ad39a7285ce5dd2b6608e9eb8ac1d.svg",
-    "main.77ae54fb.css.map": "/client/static/css/main.77ae54fb.css.map",
-    "main.b5247782.js.map": "/client/static/js/main.b5247782.js.map"
+    "main.css": "/productr/static/css/main.77ae54fb.css",
+    "main.js": "/productr/static/js/main.b8e7bb06.js",
+    "static/media/left-bg.png": "/productr/static/media/left-bg.d51eca01a5f364414e0c.png",
+    "static/media/runner.jpg": "/productr/static/media/runner.9d6989994536c5cff71c.jpg",
+    "static/media/close.svg": "/productr/static/media/close.8265f088f188bceed9ff7ed9b6ce0433.svg",
+    "static/media/Search.svg": "/productr/static/media/Search.7c2c4c5e9e9813796b0998ba7261e89e.svg",
+    "index.html": "/productr/index.html",
+    "static/media/Home.svg": "/productr/static/media/Home.0011b7f51ce0fb4a1c89f5a857b88f1b.svg",
+    "static/media/Shopping.svg": "/productr/static/media/Shopping.ea7ad39a7285ce5dd2b6608e9eb8ac1d.svg",
+    "main.77ae54fb.css.map": "/productr/static/css/main.77ae54fb.css.map",
+    "main.b8e7bb06.js.map": "/productr/static/js/main.b8e7bb06.js.map"
   },
   "entrypoints": [
     "static/css/main.77ae54fb.css",
-    "static/js/main.b5247782.js"
+    "static/js/main.b8e7bb06.js"
   ]
 }
